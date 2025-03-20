@@ -9,9 +9,9 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/tasks" element={<Tasks />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/todo-app/" element={<Home />} />
+        <Route path="/todo-app/tasks" element={<Tasks />} />
+        <Route path="/todo-app/about" element={<About />} />
       </Routes>
     </>
   );

@@ -25,7 +25,7 @@ function Home() {
               <p className="card-text text-secondary">
                 Add, edit, and delete tasks easily with a smooth user experience.
               </p>
-              <Link to="/tasks" className="btn btn-primary w-100">
+              <Link to="/todo-app/tasks" className="btn btn-primary w-100">
                 <FontAwesomeIcon icon={faClipboardList} className="me-2" />
                 View Tasks
               </Link>
@@ -41,7 +41,7 @@ function Home() {
               <p className="card-text text-secondary">
                 Learn more about the features and technologies behind this project.
               </p>
-              <Link to="/about" className="btn btn-info w-100">
+              <Link to="/todo-app/about" className="btn btn-info w-100">
                 <FontAwesomeIcon icon={faInfoCircle} className="me-2" />
                 About
               </Link>
@@ -52,7 +52,7 @@ function Home() {
 
       {/* Call to Action */}
       <div className="mt-5">
-        <Link to="/tasks" className="btn btn-success btn-lg px-4 py-2 shadow-lg">
+        <Link to="/todo-app/tasks" className="btn btn-success btn-lg px-4 py-2 shadow-lg">
           <FontAwesomeIcon icon={faRocket} className="me-2" />
           Get Started Now!
         </Link>

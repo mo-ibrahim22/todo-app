@@ -7,7 +7,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
       <div className="container">
         {/* Brand Name */}
-        <Link className="navbar-brand fw-bold text-light" to="/">
+        <Link className="navbar-brand fw-bold text-light" to="/todo-app/">
           <FontAwesomeIcon icon={faListCheck} className="me-2" /> To-Do App
         </Link>
 
@@ -28,17 +28,17 @@ function Navbar() {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link text-light fw-semibold" to="/">
+              <Link className="nav-link text-light fw-semibold" to="/todo-app/">
                 <FontAwesomeIcon icon={faHome} className="me-2" /> Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light fw-semibold" to="/tasks">
+              <Link className="nav-link text-light fw-semibold" to="/todo-app/tasks">
                 <FontAwesomeIcon icon={faListCheck} className="me-2" /> Tasks
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light fw-semibold" to="/about">
+              <Link className="nav-link text-light fw-semibold" to="/todo-app/about">
                 <FontAwesomeIcon icon={faInfoCircle} className="me-2" /> About
               </Link>
             </li>
