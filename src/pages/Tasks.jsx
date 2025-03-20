@@ -82,7 +82,6 @@ function Tasks() {
         Your Tasks
       </h2>
 
-      {/* Add Task Button */}
       <button className="btn btn-primary mb-3" onClick={() => setShowAddModal(true)}>
         <FontAwesomeIcon icon={faPlus} className="me-2" /> Add New Task
       </button>
@@ -105,7 +104,6 @@ function Tasks() {
         ))}
       </ul>
 
-      {/* Edit Task Modal */}
       {taskToEdit && (
         <div className="modal fade show" style={{ display: "block" }} tabIndex="-1">
           <div className="modal-dialog">
@@ -135,7 +133,6 @@ function Tasks() {
         </div>
       )}
 
-      {/* Add Task Modal */}
       {showAddModal && (
         <div className="modal fade show" style={{ display: "block" }} tabIndex="-1">
           <div className="modal-dialog">

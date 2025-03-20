@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <div className="container d-flex flex-column align-items-center justify-content-center vh-100">
-      {/* Hero Section */}
+
       <div className="text-center">
         <h1 className="display-4 fw-bold text-primary">
           Welcome to <span className="text-success">Your To-Do List App</span>
@@ -15,7 +15,6 @@ function Home() {
         </p>
       </div>
 
-      {/* Feature Cards */}
       <div className="row mt-4 w-100 justify-content-center">
         <div className="col-md-4">
           <div className="card text-center shadow-lg border-0">
@@ -50,7 +49,6 @@ function Home() {
         </div>
       </div>
 
-      {/* Call to Action */}
       <div className="mt-5">
         <Link to="/todo-app/tasks" className="btn btn-success btn-lg px-4 py-2 shadow-lg">
           <FontAwesomeIcon icon={faRocket} className="me-2" />
